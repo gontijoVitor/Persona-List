@@ -1,0 +1,18 @@
+body{
+    background-image: url("../img/playstation-wallpapers-persona-5-royal-desktop-wallpaper-01-ps4-27mar20-en-us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainTable{
+    background-color: aliceblue;
+}
+
+.botao{
+    background-color: #ee1c24;
+    color: aliceblue;
+    border-radius: 14px;
+    border: none;
+    height: 30px;
+    width: 100px;
+}

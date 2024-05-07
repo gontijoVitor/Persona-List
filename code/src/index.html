@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona's list</title>
+    <link rel="stylesheet" href="../css/mainCSS.css">
+    <link rel="stylesheet" href="../plugins/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="mainTable mx-auto border rounded col-8 p-2 m-3">
+        <form class="form-control row mx-auto">
+            <div class="col-5">
+                <!--Filter by persona games list-->
+                <label>Choose a persona game</label>
+                <select class="form-control w-25">
+                    <option value="">All</option>
+                </select>
+            </div>
+            <div class="col-5">
+                <!--Filter by persona type-->
+                <label>Choose a persona type</label>
+                <select class="form-control w-25">
+                    <option value="">All</option>
+                </select>
+            </div>
+            <div>
+                <button class="botao">Filter</button>
+            </div>
+        </form>
+    </div>
+    
+        <!--List the personas by game selected-->
+        <div class="mainTable mx-auto border rounded col-8 p-2 m-3">
+            <table class="table" border="1">
+                <th>Id</th>
+                <th>Image</th>
+                <th>Level</th>
+                <th>Name</th>
+                <th>Japanese Name</th>
+                <th>Romanji</th>
+                <th>First Appearence</th>
+                <th>Appears on</th>
+            </table>
+        </div>
+
+    </body>
+</html>
