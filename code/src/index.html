@@ -9,26 +9,24 @@
 </head>
 <body>
 
-    <div class="mainTable mx-auto border rounded col-8 p-2 m-3">
-        <form class="form-control row mx-auto">
+    <div class="mainTable row mx-auto border rounded align-items-center col-8 p-3 m-3">
+            <!--Filter by persona games list-->
             <div class="col-5">
-                <!--Filter by persona games list-->
                 <label>Choose a persona game</label>
-                <select class="form-control w-25">
+                <select class="form-control">
                     <option value="">All</option>
                 </select>
             </div>
+            <!--Filter by persona type-->
             <div class="col-5">
-                <!--Filter by persona type-->
                 <label>Choose a persona type</label>
-                <select class="form-control w-25">
+                <select class="form-control">
                     <option value="">All</option>
                 </select>
             </div>
-            <div>
-                <button class="botao">Filter</button>
+            <div class="col-2">
+                <button class="botao mx-auto" type="submit">Filter</button>
             </div>
-        </form>
     </div>
     
         <!--List the personas by game selected-->
@@ -41,7 +39,24 @@
                 <th>Japanese Name</th>
                 <th>Romanji</th>
                 <th>First Appearence</th>
-                <th>Appears on</th>
+                <tr>
+                    <td>1</td>
+                    <td><img src="../img/persona5/Arsene.png" class="pictureAdjust"></td>
+                    <td>1</td>
+                    <td>Arsène</td>
+                    <td>アルセーヌ</td>
+                    <td>Aruseinu</td>
+                    <td>Persona 5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="../img/persona5/Jack-o-Lantern.png" class="pictureAdjust"></td>
+                    <td>2</td>
+                    <td>Jack-o'-Lantern</td>
+                    <td>ジャックランタン</td>
+                    <td>Jakkurantan</td>
+                    <td>Shin Megami Tensei II</td>
+                </tr>
             </table>
         </div>
 

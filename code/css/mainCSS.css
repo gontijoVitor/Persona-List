@@ -11,8 +11,14 @@ body{
 .botao{
     background-color: #ee1c24;
     color: aliceblue;
-    border-radius: 14px;
+    border-radius: 15px;
     border: none;
-    height: 30px;
-    width: 100px;
+    height: 35px;
+    width: 100%;
+    font-size: larger;
+}
+
+.pictureAdjust{
+    height: 15%;
+    width: 15%;
 }
