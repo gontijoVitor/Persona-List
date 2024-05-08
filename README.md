@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Hello world!
 I'm still working on this simple project!
 I'll list some credits bellow.
@@ -16,9 +16,8 @@ https://megamitensei.fandom.com/wiki/List_of_Persona_4_Personas
 
 Persona 5
 https://megamitensei.fandom.com/wiki/List_of_Persona_5_Personas#Fool
-=======
+
 I'm still working on this project
 
 The background was downloaded from the following website
 https://www.playstation.com/pt-br/wallpapers/
->>>>>>> cf9c31f18c22318e70948b13440b7f903eecd81f
